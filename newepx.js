@@ -5,7 +5,7 @@ $(document).ready(function() {
 $('head').append('<link rel="stylesheet" type="text/css" href="http://gdriv.es/aceogarstyle/style.css">');
 $('h1').replaceWith('<div id="preview"><div id="img"></div></div>');
 $('#leaderboard-hud h4').html('Leaderboard');
-$('title').html('EpX');
+$('title').html('Σק✣');
 $('#mainPanel #img').css("background","url('"+$('#skin').val()+"')");
 $('.leaderboard-panel').html('<style>.leaderboard-panel{width: 252px;height: 597px;}#skinz{display: inline-block;-webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75); box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.75);cursor:pointer;width:99px;height:99px;maRgin:5px;border-radius:100000000px;}</style> <div id="skinz" style="opacity: 1;" class="1"></div> <div id="skinz" style="opacity: 1;" class="2"></div> <div id="skinz" style="opacity: 1;" class="3"></div> <div id="skinz" style="opacity: 1;" class="4"></div> <div id="skinz" style="opacity: 1;" class="5"></div> <div id="skinz" style="opacity: 1;" class="6"></div> <div id="skinz" style="opacity: 1;" class="7"></div> <div id="skinz" style="opacity: 1;" class="8"></div> <div id="skinz" style="opacity: 1;" class="9"></div> <div id="skinz" style="opacity: 1;" class="10"</div>');
 
@@ -80,7 +80,7 @@ $('#clantag, #skin, #nick').on("input", function(){
 $('.agario-panel-freecoins, .agario-shop-panel').insertBefore('#tags-container');
 $('#tags-container').remove();
 $('.vertical-line').remove();
-$('#minimap-sectors').replaceWith('<img id="minimap-sectors" width="182" height="182" src="http://i.imgur.com/pc1DFQ0.png">');
+$('#minimap-sectors').replaceWith('<img id="minimap-sectors" width="182" height="182" src="http://i.imgur.com/5VLl2UA.png">');
 $('.party-panel, .agario-party, .agario-party-0, .agario-party-1, .agario-party-2, .agario-party-3, .agario-party-4, .agario-party-5, .agario-party-6, .agario-panel-gifting, .agario-profile-panel').remove();
 $('.hud, .hud-b').css('border-radius','0px');
 $('h2').remove();
@@ -99,7 +99,7 @@ $('head').append('<script>function hideUrl() {$("head").append(\'<style>#skin {t
 	$('#mainPanel #img').css("background","url('"+$('#skin').val()+"')");
 	
 	$('#overlays').prepend('<style>#lolhi{opacity:0;}#lolhi:hover{opacity:0.95;}</style><div id="lolhi" style="    background: #9c2556; width: 500px; height: 300px; bottom: 35px; right: 35px; position: fixed; border-radius: 15px; box-shadow: 0px 0px 25px 0px #9c2556; padding: 70px; font-weight: 600; color: white; transition: all .3s; ">Vanilla skins/ Mass boosts/ XP boosts are in the settings.<br>Any suggestions/ feedback are welcome in the feedback section in  Greasyfork.<br>Enjoy :)<br><br><br><script src="https://apis.google.com/js/platform.js"></script> <div class="g-ytsubscribe" data-channelid="UCuvYrid9mlRZ_ZW-eNM7o7w" data-layout="full" data-count="default"></div></div>');
-    $('#minimap-sectors').replaceWith('<img id="minimap-sectors" width="182" height="182" src="http://i.imgur.com/pc1DFQ0.png">');
+    $('#minimap-sectors').replaceWith('<img id="minimap-sectors" width="182" height="182" src="http://i.imgur.com/5VLl2UA.png">');
 
     for (var i = 1; i < 11; i++) {
     	var skinz = JSON.parse(localStorage["profile"+i]);
