@@ -2,7 +2,7 @@
 
 $(document).ready(function() {
 
-$('head').append('<link rel="stylesheet" type="text/css" href="http://dum5nomg.tk/epxx.css">');
+$('head').append('<link rel="stylesheet" type="text/css" href="http://gdriv.es/aceogarstyle/style.css">');
 $('h1').replaceWith('<div id="preview"><div id="img"></div></div>');
 $('#leaderboard-hud h4').html('Leaderboard');
 $('title').html('EpX');
