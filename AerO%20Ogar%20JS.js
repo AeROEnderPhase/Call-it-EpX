@@ -1,4 +1,3 @@
-/////////////////////GIVE CREDIT IF YOU'RE GOING TO MODIFY THIS./////////////////////
 
 $(document).ready(function() {
 
